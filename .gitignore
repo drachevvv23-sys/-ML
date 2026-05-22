@@ -1,0 +1,83 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints*
+~*.ipynb
+*.pyc
+__pycache__/
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Файлы IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Данные (если файлы большие)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.db
+*.sqlite
+*.parquet
+data/
+datasets/
+*.pkl
+*.pickle
+
+# Изображения и графики (обычно не хранят в репозитории)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+figures/
+plots/
+images/output/
+
+# Дополнительные файлы Python
+*.log
+*.bak
+*.orig
+*.cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Файлы конфигурации с секретами
+.env
+config.py
+secrets.py
+
+# Результаты моделей
+*.model
+*.h5
+*.pth
+models/
+checkpoints/
+
+# Отчеты
+*.html
+output.html
+*.aux
+*.out
+
+# Временные файлы
+temp/
+tmp/
+*.tmp
+
+# Файлы упаковки
+*.egg-info/
+dist/
+build/
